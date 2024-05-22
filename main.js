@@ -16,7 +16,7 @@ class student {
         this.courses.push(courses);
     }
     balanceCheck() {
-        console.log(`This Student's Name is "${this.name}" and her Balance is $${this.balance}`);
+        console.log(`This Student's Name is "${this.name}" and her/has Balance is $${this.balance}`);
     }
     payFees(fees) {
         this.balance -= fees;
